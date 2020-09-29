@@ -3,40 +3,16 @@
     "en": "EN",
     "ru": "RU"
   },
-  "defaultImages": {
-    "finTech": "FinTeh",
-    "finTechDescription": "Modernization of traditional financial services.",
-    "socialNetwork": "Social network",
-    "socialNetworkDescription": "Convenient tool for communication.",
-    "sportsСolumnist": "Sports columnist",
-    "sportsСolumnistDescription": "Sport Event Review Tool",
-    "educationalPlatform": "Educational platform",
-    "educationalPlatformDescription": "Product for online learning",
-    "eCommerce": "E-commerce",
-    "eCommerceDescription": "Various trading and financial transactions",
-    "personalPortfolio": "Personal portfolio",
-    "personalPortfolioDescription": "personal portfolio by type of activity"
-  },
-  "header": {
-    "title": "I am Alexander Vorotov, ",
-    "titleDescription": "Senior web application developer.   ",
-    "titleDescriptionFooter": "  My main goal is an infinitely development."
-  },
   "homePage": {
     "lng": "en",
-    "seo": "Alexander Vorotov | Senior Web Developer",
+    "seo": "Viktor Duvanov | Senior Web Developer",
     "title": " I PROVIDE FULL-CYCLE DEVELOPMENT SERVICE:",
     "titleDescription": "I have extensive experience in creating and developing a brand, but my love of technology has led me to web development. I worked with various enterprises and startups in Russia, Ukraine, Great Britain, and Argentina, offering all kinds of methods for developing their product. Such as supporting ready-made applications for creating a project from scratch and migrating to another technology stack.",
     "titleListDesing": "- UI/UX design.",
     "titleListFront": "- Frontend development.",
     "titleListBack": "- Backend development.",
     "titleListTest": "- Testing and debugging.",
-    "titleListSupport": "- Support and maintenance.",
-    "learnMore": "Learn More",
-    "recentWork": "Recent work",
-    "recentBlog": "Latest posts",
-    "fullPortfolio": "Full Portfolio",
-    "fullBlog": "Read all posts"
+    "titleListSupport": "- Support and maintenance."
   },
   "skills": {
     "skills": "Skills",
@@ -77,7 +53,7 @@
     "massage": "Message:",
     "massagePc": "your message most be more than 3 characters....",
     "send": "Send Message",
-    "street": "Petrovskaya st.",
+    "street": "Chehova st.",
     "city": "Taganrog, Rostov region",
     "country": "Russia"
   },
@@ -91,20 +67,5 @@
   "thx": {
     "title": "Thank You!",
     "titleDescription": "Your message has successfully been sent. I received it and will contact you shortly."
-  },
-  "blog": {
-    "category": "Tech",
-    "title": "Portfolio on Gatsby & Netlife is very fast and optimized. Part-",
-    "seo": " Alexander Vorotov | Blog",
-    "header": "First of all, a little bit about me - just a story for you.",
-    "nav1": "Home Page",
-    "nav2": "Blog",
-    "share": "Share this article",
-    "post": "Posted by",
-    "aboutMe": "About me"
-  },
-  "portfolio": {
-    "title": "Little story about me.",
-    "titleDescription": "I was born in Russia in Taganrog, Rostov region. I received secondary education at Taganrog Municipal General Education Lyceum No. 4 (TMOL). I entered the Southern Federal University and studied in the direction of Technosphere Security (Bachelor and Master). Back in the university I started my way in helping to develop the product. That's when I started doing web development."
   }
 }

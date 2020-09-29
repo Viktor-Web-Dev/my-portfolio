@@ -76,12 +76,5 @@ module.exports = () => ({
         component: `${__dirname}/src/components/layout.js`,
       },
     },
-
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_KEY,
-      },
-    },
   ],
 })

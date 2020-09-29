@@ -15,11 +15,11 @@ import EqualizerIcon from '@material-ui/icons/Equalizer';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 
 function LandingPage() {
-  document.documentElement.classList.remove("nav-open");
+  if(typeof document !== 'undefined') document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
-    document.body.classList.add("profile-page");
+    if(typeof document !== 'undefined') document.body.classList.add("profile-page");
     return function cleanup() {
-      document.body.classList.remove("profile-page");
+      if(typeof document !== 'undefined') document.body.classList.remove("profile-page");
     };
   });
   return (

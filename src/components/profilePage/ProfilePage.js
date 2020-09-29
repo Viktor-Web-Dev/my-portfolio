@@ -19,11 +19,11 @@ function ProfilePage() {
     }
   };
 
-  document.documentElement.classList.remove("nav-open");
+  if(typeof document !== 'undefined') document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
-    document.body.classList.add("landing-page");
+    if(typeof document !== 'undefined') document.body.classList.add("landing-page");
     return function cleanup() {
-      document.body.classList.remove("landing-page");
+      if(typeof document !== 'undefined') document.body.classList.remove("landing-page");
     };
   });
   return (

@@ -1,6 +1,5 @@
 import React from 'react'
 import { withTranslation } from 'react-i18next'
-import { graphql, Link } from 'gatsby'
 
 import ProfilePage from "../components/profilePage/ProfilePage";
 import DemoFooter from "../components/Footers/DemoFooter";
@@ -29,7 +28,7 @@ class HomeIndex extends React.Component {
       <>
         <SEO
           title={t('homePage.seo')}
-          description="Alexander Vorotov - Web tech and development - Design, identity, and branding - Optimise and scale your business"
+          description="Viktor Duvanov - Web tech and development - Design, identity, and branding - Optimise and scale your business"
           image={avatar}
           htmlAttributes={{
             lang: t('homePage.lng'),

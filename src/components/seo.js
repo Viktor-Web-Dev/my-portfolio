@@ -39,7 +39,7 @@ const SEO = ({
       },
       {
         name: 'og:site_name',
-        content: 'Live CV Alex Vorotov',
+        content: 'Live CV Viktor Duvanov',
       }
     )
   }
