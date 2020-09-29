@@ -1,0 +1,14 @@
+.container-info {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 65px;
+  margin: 1rem 0 0 3rem;
+}
+
+.text-city {
+  margin-left: 1.7rem;
+}
+
+.text-country {
+  margin-left: 1.7rem;
+}

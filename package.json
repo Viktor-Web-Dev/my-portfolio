@@ -1,0 +1,56 @@
+{
+  "name": "portfolio-in-gatsby",
+  "description": "hot-gatsby-pages",
+  "version": "1.0.0",
+  "author": "Viktor Duvanov",
+  "dependencies": {
+    "@contentful/gatsby-transformer-contentful-richtext": "^13.1.0",
+    "@contentful/rich-text-types": "^14.1.0",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "date-fns": "^2.11.1",
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-google-analytics": "^2.2.2",
+    "gatsby-plugin-layout": "^1.2.1",
+    "gatsby-plugin-manifest": "^2.2.44",
+    "gatsby-plugin-offline": "^3.0.37",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-sitemap": "^2.3.1",
+    "gatsby-source-contentful": "^2.2.7",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "i18next": "^19.3.4",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "node-sass": "^4.14.1",
+    "nouislider": "^14.6.2",
+    "prop-types": "latest",
+    "react": "^16.13.0",
+    "react-bootstrap-switch": "^15.5.3",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-i18next": "^11.3.4",
+    "react-images": "^1.0.0",
+    "react-swipeable-views": "^0.13.9",
+    "reactstrap": "^8.6.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
