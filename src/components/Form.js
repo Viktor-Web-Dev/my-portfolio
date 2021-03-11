@@ -192,37 +192,31 @@ class ContactForm extends Component {
                   </Row>
                 </form>
                 <div className="section landing-section container-info">
-                  <div>
-                    <span>
+                  <div className="home">
+                    <div className="svg">
                       <HomeIcon/>
-                    </span>
-                    <span className="ml-1">
+                    </div>
+                    <div className="text-country">
                     {t("contact.street")}
-                    </span>
-                    <br/>
-                    <span className="text-city">
+                    <br />
                     {t("contact.city")}
-                    </span>
-                    <br/>
-                    <span className="text-country">
+                    <br />
                     {t("contact.country")}
-                    </span>
+                    </div>
                   </div>
-                  <div>
-                    <span>
+                  <div className="phone">
+                    <div className="svg">
                       <PhonelinkRingIcon/>
-                    </span>
+                    </div>
                     <a
-                      className="ml-1 mt-2"
                       href="tel:+79996935749">+79996935749
                     </a>
                   </div>
-                  <div>
-                    <span>
+                  <div className="phone">
+                    <div className="svgMail">
                       <MailOutlineIcon/>
-                    </span>
+                    </div>
                     <a
-                      className="ml-1"
                       href="mailto:&#118;&#105;&#107;&#116;&#111;&#114;&#119;&#101;&#98;&#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
                       &#118;&#105;&#107;&#116;&#111;&#114;&#119;&#101;&#98;&#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
                     </a>

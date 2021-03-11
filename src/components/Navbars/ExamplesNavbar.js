@@ -65,7 +65,7 @@ function ExamplesNavbar() {
             to="/index"
             target="_blank"
             title="Coded by Justice team"
-            // tag={Link}
+            href="https://justiceteam-it.com/"
           >
             Justice team
           </NavbarBrand>
@@ -112,7 +112,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/duvanov_v/"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -123,7 +123,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/Viktor-Web-Dev"
                 target="_blank"
                 title="Star on GitHub"
               >
@@ -132,15 +132,15 @@ function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <a href="#two" aria-label="Email">
-                <NavLink
-                  target="_blank"
-                  title="Star on GitHub"
-                >
-                  <MailIcon className="fa fa-github"/>
-                  <p className="d-lg-none">Email</p>
-                </NavLink>
-              </a>
+              <NavLink
+                target="_blank"
+                data-placement="bottom"
+                title="Star on Mail"
+                href="#two"
+              >
+                <MailIcon className="fa fa-github"/>
+                <p className="d-lg-none">Email</p>
+              </NavLink>
             </NavItem>
             <li>
               <LanguageMenu />

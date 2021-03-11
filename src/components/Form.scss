@@ -1,14 +1,50 @@
 .container-info {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 65px;
-  margin: 1rem 0 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.text-city {
-  margin-left: 1.7rem;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 93px;
+}
+
+.svg {
+  height: 30px;
+  width: 198px;
+  display: flex;
+  justify-content: center;
+}
+
+.svgMail {
+  height: 30px;
+  width: 198px;
+  display: flex;
+  justify-content: center;
 }
 
 .text-country {
-  margin-left: 1.7rem;
+  width: 198px;
+  text-align: center;
+  cursor: default;
+}
+
+@media screen and (max-width: 500px){
+  .container-info {
+    flex-direction: column;
+  }
+
+  .text-country {
+    margin-bottom: 20px;
+  }
 }
