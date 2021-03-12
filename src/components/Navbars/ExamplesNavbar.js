@@ -142,9 +142,9 @@ function ExamplesNavbar() {
                 <p className="d-lg-none">Email</p>
               </NavLink>
             </NavItem>
-            <li>
-              <LanguageMenu />
-            </li>
+            {/*<li>*/}
+            {/*  <LanguageMenu />*/}
+            {/*</li>*/}
           </Nav>
         </Collapse>
       </Container>
