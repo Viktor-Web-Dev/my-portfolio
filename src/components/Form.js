@@ -104,15 +104,15 @@ class ContactForm extends Component {
 
   render() {
     const { valid, value } = this.state;
-    const { t } = this.props;
+    const text = "You can contact me for any information you are interested in. To do this, fill out the feedback form or use the contact information provided by me. And I will answer you as soon as possible."
     return (
       <div className="section landing-section">
         <section id="five">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">{t("contact.get")}</h2>
-                <p className="text-center">{t("contact.getDescription")}</p>
+                <h2 className="text-center">Get In Touch</h2>
+                <p className="text-center">{text}</p>
                 <form
                   name="contact"
                   method="post"
@@ -132,7 +132,7 @@ class ContactForm extends Component {
                   </p>
                   <Row>
                     <Col md="6">
-                      <label>{t("contact.name")}</label>
+                      <label>Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -143,14 +143,14 @@ class ContactForm extends Component {
                           type="text"
                           name="name"
                           id="name"
-                          placeholder={t("contact.namePc")}
+                          placeholder="Name"
                           value={value.name}
                           onChange={e => this.handleChange(e.target.value, "name")}
                         />
                       </InputGroup>
                     </Col>
                     <Col md="6">
-                      <label>{t("contact.email")}</label>
+                      <label>E-mail</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -160,17 +160,17 @@ class ContactForm extends Component {
                         <Input
                           type="email"
                           name="email"
-                          placeholder={t("contact.emailPc")}
+                          placeholder="E-mail"
                           value={value.email}
                           onChange={e => this.handleChange(e.target.value, "email")}
                         />
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label>{t("contact.massage")}</label>
+                  <label>Message</label>
                   <Input
                     name="message"
-                    placeholder={t("contact.massagePc")}
+                    placeholder="Your message most be more than 3 characters...."
                     value={value.message}
                     onChange={e =>
                       this.handleChange(e.target.value, "message")
@@ -186,7 +186,7 @@ class ContactForm extends Component {
                         size="lg"
                         disabled={valid.email || valid.name || valid.message}
                       >
-                        {t("contact.send")}
+                        Send Message
                       </Button>
                     </Col>
                   </Row>
@@ -197,11 +197,11 @@ class ContactForm extends Component {
                       <HomeIcon/>
                     </div>
                     <div className="text-country">
-                    {t("contact.street")}
+                    <span>Chehova st.</span>
                     <br />
-                    {t("contact.city")}
+                    <span>Taganrog, Rostov area</span>
                     <br />
-                    {t("contact.country")}
+                    <span>Russia</span>
                     </div>
                   </div>
                   <div className="phone">
