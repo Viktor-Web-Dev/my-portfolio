@@ -132,7 +132,9 @@ class ContactForm extends Component {
                   </p>
                   <Row>
                     <Col md="6">
-                      <label>Name</label>
+                      <label>
+                        Name
+                      </label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>

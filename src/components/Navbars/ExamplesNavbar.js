@@ -18,9 +18,9 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LanguageIcon from "@material-ui/icons/Language";
+// import LanguageIcon from "@material-ui/icons/Language";
 import MailIcon from "@material-ui/icons/Mail";
-import LanguageMenu from "../languageMenu";
+// import LanguageMenu from "../languageMenu";
 
 function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");

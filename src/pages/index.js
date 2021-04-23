@@ -14,15 +14,13 @@ import avatar from '../assets/img/avatar1.jpg'
 class HomeIndex extends React.Component {
   constructor() {
     super()
-
     this.state = {
       skillsIsOpen: false,
     }
   }
 
   render() {
-    const { skillsIsOpen } = this.state
-    const { t, data } = this.props
+    const { t } = this.props
 
     return (
       <>

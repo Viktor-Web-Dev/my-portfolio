@@ -11,13 +11,13 @@ import {
 import LandingPage from "../landing/LandingPage";
 
 function ProfilePage() {
-  const [activeTab, setActiveTab] = React.useState("1");
-
-  const toggle = (tab) => {
-    if (activeTab !== tab) {
-      setActiveTab(tab);
-    }
-  };
+  // const [activeTab, setActiveTab] = React.useState("1");
+  //
+  // const toggle = (tab) => {
+  //   if (activeTab !== tab) {
+  //     setActiveTab(tab);
+  //   }
+  // };
 
   if(typeof document !== 'undefined') document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
